@@ -26,3 +26,5 @@ You have to link the two containers, container names will be also visible in /et
 - Start server container: docker run -t -p 5000:5000 server --name server
 - Start the client container and link them: docker run -it --link server:client --name clientest client bash
 
+## Tests
+execute nosetests command
