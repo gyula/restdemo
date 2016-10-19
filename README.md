@@ -18,6 +18,7 @@ than this.
 ## Deployment
 - client cmd-conf contains the Server Address example config: APIaddress = 'http://client:5000' if you choosed other names, rename the name of the container!
 You have to link the two containers, container names will be also visible in /etc/hosts (inside the containers). After the containers running simply use docker attach CONTAINERID inside the /code you will find the application.
+
 ### Example
 - Build docker files:
 - docker build -t server .
